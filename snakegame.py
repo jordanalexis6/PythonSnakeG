@@ -162,23 +162,23 @@ while True:
             head.goto(0, 0)
             head.direction = "stop"
 
-        # hide segments
-        for segment in segments:
-            segment.goto(1000, 1000)
+            # hide segments
+            for segment in segments:
+                segment.goto(1000, 1000)
 
-        # clear segments list
-        segments.clear()
+            # clear segments list
+            segments.clear()
 
-        # reset score
-        score = 0
+            # reset score
+            score = 0
 
-        # reset delay
-        delay = 0.1
+            # reset delay
+            delay = 0.1
 
-        # update score display
-        pen.clear()
-        pen.write("Score: {}  High Score: {}".format(score, high_score), align="center",
-                  font=("Courier", 26,  "normal"))
+            # update score display
+            pen.clear()
+            pen.write("Score: {}  High Score: {}".format(score, high_score), align="center",
+                      font=("Courier", 26,  "normal"))
 
     time.sleep(delay)
 
