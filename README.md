@@ -1,6 +1,6 @@
 <h1 align='center'>Python Snake Game</h1>
 <h2>💡 Project Overview</h2>
-<p>Making classic snake game using python. I had to Redo to make sure my commits reflected on my Github account. I originally made reated and worked on this game August 5th-12th. The original repo is still there.
+<p>Making classic snake game using python. I had to redo this project to make sure my commits reflected on my Github account. I originally made created and worked on this game August 5th-12th. The original repo is still there.
 
 </p>
 <h2>⚙️ List of Technology Used</h2>
