@@ -3,6 +3,8 @@ import turtle
 import time
 import random
 
+delay = 0.1
+
 # main screen
 wn = turtle.Screen()
 wn.title("Simple Snake Game by @jordanalexis6")
@@ -32,5 +34,7 @@ while True:
     wn.update()
 
     move()
+
+    time.sleep(delay)
 
 wn.mainloop()
