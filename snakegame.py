@@ -78,6 +78,10 @@ while True:
         head.goto(0, 0)
         head.direction = "stop"
 
+        # hide segments
+        for segment in segments:
+            segment.goto(1000, 1000)
+
     # check for collision with food
     if head.distance(food) < 20:
         # move food to random spot
