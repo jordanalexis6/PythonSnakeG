@@ -19,14 +19,19 @@ head.shape("square")
 head.color("black")
 head.penup()
 head.goto(0, 0)
-head.direction = "up"
+head.direction = "stop"
 
 
 # funtions
 def move():
     if head.direction == "up":
-        y = head.ycor()
-        head.sety(y + 20)
+        head.sety(head.ycor() + 20)
+    if head.direction == "down":
+        head.sety(head.ycor() - 20)
+    if head.direction == "left":
+        head.setx(head.xcor() - 20)
+    if head.direction == "right":
+        head.setx(head.xcor() + 20)
 
 
 # main game loop
