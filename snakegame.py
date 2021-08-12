@@ -50,6 +50,13 @@ def move():
         head.setx(head.xcor() + 20)
 
 
+# keyboard bindings
+wn.listen()
+wn.onkeypress(go_up, "w")
+wn.onkeypress(go_down, "s")
+wn.onkeypress(go_left, "a")
+wn.onkeypress(go_right, "d")
+
 # main game loop
 while True:
     wn.update()
